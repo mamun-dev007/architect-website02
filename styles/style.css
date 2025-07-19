@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* shared style */
+.dark-1 {
+    color: #131313;
+}
+
+.dark-2 {
+    color: #424242;
+}
+
+.dark-3 {
+    color: #727272;
+}
+
+.dark-4 {
+    color: #A1A1A1;
+}
+
+
+
+.btn {
+    color: #FFFFFF;
+    background-color: #FF900E;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 8px;
+    margin: 40px auto;
+    display: flex;
+
+}
+
+.color {
+    color: #FF900E;
+}
+
+/* navbar style */
+.navbar {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.nav-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.nav-links {
+    display: flex;
+
+}
+
+.nav-items {
+
+    list-style-type: none;
+    padding: 0 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+
+}
+
+/* banner-section */
+.banner-head {
+    margin: 116px auto;
+    width: 90%;
+
+}
+
+.banner-title {
+    font-size: bold;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 4rem;
+
+}
+
+.banner-description {
+    width: 70%;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.banner-image {
+    width: 100%;
+    margin: 0 auto
+}
+
+/* explores */
+.mains {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.teams-section {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+}
+
+.explore-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    width: 100%;
+
+}
+
+
+
+.explore-title {
+    font-size: 2.8rem;
+}
+
+.explore-btn {
+    color: #FFFFFF;
+    background-color: #FF900E;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 8px;
+    margin: 40px auto;
+
+}
+
+.features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+    gap: 146px;
+}
+
+.features-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    width: 600px;
+}
+
+.card-item {
+    background-color: rgb(232, 232, 232);
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 50px 0;
+    width: 100%;
+}
+
+.card-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.image-head {
+    margin-top: 50px;
+}
+
+.features-image {
+    width: 100%;
+}
+
+.features-btn {
+    background-color: #FF900E;
+    padding: 20px 30px;
+    position: relative;
+    top: -80px;
+    left: -80px;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.features-btn h4 {
+    font-size: 65px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+
+
+}
+
+.features-btn p {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+
+}
+.facts-section{
+     width: 50%;
+    margin: 50px 0;
+
+}
+.facts-section h1{
+    font-size: 45px;
+    font-weight: bold;
+
+}
+
+.fact-cards{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+}
+.facts-card{
+    border: 2px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+.fact-cards h1{
+    font-size: 45px;
+    font-weight: 500px;
+
+}
+.fact-cards p{
+    font-size: 20px ;
+    font-weight: 500;
+
+}
+.sponspors{
+    margin: 150px 0;
+    text-align: center;
+}
+.sponspor-title{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.sponspor-description{
+    width: 50%;
+    margin:80px auto;
+
+}
+.sponspor-name{
+    display: flex;
+    justify-content: space-between;
+    filter: grayscale(100%);
+}
+.footer-area{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+@media (min-width:576px) and (max-width:1200px) {
+        .nav-links {
+        display: none;
+    }
+
+    .explore-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+
+    }
+
+    .teams-section {
+        flex-direction: column;
+    }
+
+    .explore-img {
+        width: 100%;
+    }
+        /* .features section */
+    .features {
+        width: 100%;
+        display: block;
+    }
+
+    .features-title {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .card-item {
+        width: 80%;
+    }
+
+    .features-image {
+        width: 100%;
+    }
+
+    .features-btn {
+        top: 30px;
+        left: 0;
+     }
+
+/* .facts-section */
+.facts-section{
+     width: 100%;
+
+
+}
+.facts-section h1{
+    font-size: 45px;
+    font-weight: bold;
+
+}
+
+.fact-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 50px;
+    margin: 20px auto;
+}
+.sponspor-name{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    filter: grayscale(100%);
+}
+}
+
+@media (max-width:576px) {
+
+    .navbar,
+    .banner-head,
+    .teams-section {
+        flex-direction: column;
+    }
+
+    .nav-brand {
+        font-size: 1.5rem;
+    }
+
+    .nav-links {
+        display: inline-block;
+        text-align: center;
+        margin: 50px auto;
+        padding: 0;
+    }
+
+    .nav-items {
+        padding: 30px;
+    }
+
+    .nav-link {
+        font-size: 1.3rem;
+    }
+
+    /* banner-section */
+    .banner-head {
+        margin: 116px auto;
+
+    }
+
+    .banner-title {
+        font-size: bold;
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    .banner-description {
+        width: 70%;
+        font-size: 16px;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+
+    .banner-image {
+        width: 100%;
+        margin: 0 auto
+    }
+
+    /* explore */
+
+    .explore-section {
+        display: grid;
+        grid-template-columns: 1fr;
+
+
+    }
+
+    .explore-img {
+        width: 100%;
+    }
+
+
+    /* .features section */
+    .features {
+        width: 100%;
+        display: block;
+    }
+
+    .features-title {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .card-item {
+        width: 80%;
+    }
+
+    .features-image {
+        width: 100%;
+    }
+
+    .features-btn {
+        top: 30px;
+        left: 0;
+     }
+
+
+.facts-section{
+     width: 100%;
+
+
+}
+.facts-section h1{
+    font-size: 45px;
+    font-weight: bold;
+
+}
+
+.fact-cards{
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+}
+.facts-card{
+    margin: 40px 0;
+}
+.sponspor-name {
+    width: 40%;
+    display: flex;
+   flex-direction: column;
+   gap: 50px;
+   margin:0 auto;
+
+}
+
+
+}

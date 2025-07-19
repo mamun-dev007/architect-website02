@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cricket turnament</title>
+</head>
+<style>
+    .bat-ball{
+        height: 900px;
+        width: 100%;
+        border: 2px solid green;
+        margin: 0;
+    }
+    .bat{
+        height: 900px;
+        transition: transform 0.2s;
+
+    }
+    .ball{
+        height: 70px;
+        width: 70px;
+        background-color: red;
+        border-radius: 50%;
+        margin-top: -80px;
+        position: relative;
+        margin-left: 1310px;
+transition: transform 1s ease-in 0.2s;
+
+    }
+    .bat-ball:hover .bat{
+        transform: rotate(-60deg);
+        transform-origin: top right;
+        
+
+    }
+    .bat-ball:hover .ball{
+        transform: translate(1000px, -500px);
+    }
+</style>
+<body>
+    <h1>play cricket game in the field  </h1>
+    <div class="bat-ball">
+        <img class="bat" src="images/bat.png" alt="">
+        <div class="ball">
+        </div>
+    </div>
+</body>
+</html>
